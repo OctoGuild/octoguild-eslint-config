@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
