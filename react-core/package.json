@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-react-core",
-  "version": "0.5.2",
+  "version": "0.0.1-rc.1",
   "description": "",
   "main": "index.js",
   "scripts": {},
