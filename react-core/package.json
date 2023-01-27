@@ -1,0 +1,22 @@
+{
+  "name": "@octoguild/eslint-config-react-core",
+  "version": "0.5.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octoguild/eslint-config-core": "^0.4.5",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.x"
+  }
+}

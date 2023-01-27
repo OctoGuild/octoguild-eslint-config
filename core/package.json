@@ -1,0 +1,22 @@
+{
+  "name": "@octoguild/eslint-config-core",
+  "version": "0.5.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": "*"
+  },
+  "engines": {
+    "node": ">= 14"
+  }
+}

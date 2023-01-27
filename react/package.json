@@ -1,0 +1,17 @@
+{
+  "name": "@octoguild/eslint-config-react",
+  "version": "0.5.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@octoguild/eslint-config-react-core": "^0.5.2"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.x"
+  }
+}
