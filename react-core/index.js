@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['prettier', 'react', 'react-hooks'],
-  extends: ['airbnb', '@reaction-eslint/core', 'prettier', 'plugin:prettier/recommended'],
+  extends: ['airbnb', '@octoguild/core', 'prettier', 'plugin:prettier/recommended'],
   rules: {
     'prettier/prettier': [
       'error',

@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['@emotion'],
-  extends: ['@reaction-eslint/react-core'],
+  extends: ['@octoguild/react-core'],
   rules: {
     '@emotion/jsx-import': 'error',
     '@emotion/no-vanilla': 'error',
