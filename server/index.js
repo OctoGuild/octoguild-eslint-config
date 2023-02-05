@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ['mocha', 'chai-expect', 'chai-friendly', 'filenames'],
   extends: [
-    '@reaction-eslint/core',
+    '@octoguild/core',
     'plugin:mocha/recommended',
     'plugin:chai-friendly/recommended',
     'plugin:chai-expect/recommended',

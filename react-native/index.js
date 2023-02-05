@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['react-native', 'detox'],
-  extends: ['@reaction-eslint/react-core', 'plugin:react-native/all'],
+  extends: ['@octoguild/react-core', 'plugin:react-native/all'],
   rules: {
     'global-require': 'off',
 
