@@ -10,11 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@emotion/eslint-plugin": "^11.10.0",
+    "@emotion/eslint-plugin": "^11.11.0",
     "@octoguild/eslint-config-react-core": "^0.0.3"
-  },
-  "peerDependencies": {
-    "eslint": "^7.32.0",
-    "prettier": "^2.x"
   }
 }
