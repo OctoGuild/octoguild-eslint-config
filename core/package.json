@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-core",
-  "version": "0.1.0-0.1.0-alpha.2.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
