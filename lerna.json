@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-0.1.0-alpha.2.0",
   "npmClient": "npm",
   "command": {
     "publish": {
@@ -13,6 +13,5 @@
     "react-native",
     "server"
   ],
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "useWorkspaces": false
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }
