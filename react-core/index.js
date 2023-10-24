@@ -56,7 +56,13 @@ module.exports = {
     'react/static-property-placement': 'off',
     'react/state-in-constructor': 'off',
 
-    // disable conflicting default eslint rules
+    /** https://eslint.org/docs/latest/rules/arrow-parens
+     as-needed (current) - forcing functions without brackets, which is annoying for typescript. It always removes it.
+     always - forcing functions to have brackets. Better for TS, but it forces even where we don't need it
+     */
+//    "arrow-parens": ["error", "always", {
+//      "requireForBlockBody": false
+//    }],
     'arrow-parens': 'off',
 
     // disable useless

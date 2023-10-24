@@ -20,3 +20,9 @@ or
   }
 }
 ```
+
+
+### Configs
+
+- `@octoguild/react/pragma-auto` - (default) adds rules related to pragma auto
+- `@octoguild/react/pragma-manual` - adds rules to handle manual pragma

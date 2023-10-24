@@ -9,10 +9,14 @@ module.exports = {
   ],
   rules: {
     indent: [2, 2, { SwitchCase: 1 }],
+
+    // camelCase doesn't make sense when server send data in different formats.
     camelcase: 'off',
     'max-len': [2, 150],
     'no-use-before-define': 'off',
     'dot-notation': 'off',
+
+    // Buggy. conflicts with arrow-only rule. Some functions don't have to return value. forEach function as an example
     'consistent-return': 'off',
     'no-alert': 'off',
     'key-spacing': [2, { mode: 'minimum' }],

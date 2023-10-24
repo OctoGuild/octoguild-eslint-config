@@ -1,8 +1,7 @@
 module.exports = {
   plugins: ['@emotion'],
-  extends: ['@octoguild/react-core'],
+  extends: ['@octoguild/react-core', "./pragma-auto"],
   rules: {
-    '@emotion/jsx-import': 'error',
     '@emotion/no-vanilla': 'error',
     '@emotion/import-from-emotion': 'error',
     '@emotion/styled-import': 'error',
