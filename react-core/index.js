@@ -85,6 +85,9 @@ module.exports = {
       },
     ],
     'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.ts', '**/*.test.tsx'] }],
+
+    // default export creates problem for tree-shaking, so we should disable it for react
+    'import/prefer-default-export': "off",
   },
   globals: {},
   settings: {
