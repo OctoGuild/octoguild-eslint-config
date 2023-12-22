@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-react",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "@emotion/eslint-plugin": "^11.11.0",
-    "@octoguild/eslint-config-react-core": "^0.2.0"
+    "@octoguild/eslint-config-react-core": "^0.2.2"
   }
 }
