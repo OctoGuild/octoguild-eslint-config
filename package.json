@@ -12,6 +12,8 @@
     "server"
   ],
   "scripts": {
+    "version": "lerna version",
+    "publish": "lerna publish from-package",
     "ncu": "ncu --deep"
   },
   "keywords": [
