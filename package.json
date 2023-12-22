@@ -5,7 +5,11 @@
   "main": "index.js",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "core",
+    "react",
+    "react-core",
+    "react-native",
+    "server"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -11,6 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "@emotion/eslint-plugin": "^11.11.0",
-    "@octoguild/eslint-config-react-core": "^0.1.0"
+    "@octoguild/eslint-config-react-core": "^0.2.0"
   }
 }
