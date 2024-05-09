@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-react-core",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@octoguild/eslint-config-core": "^0.2.2",
+    "@octoguild/eslint-config-core": "^0.3.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
