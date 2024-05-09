@@ -88,6 +88,9 @@ module.exports = {
 
     // default export creates problem for tree-shaking, so we should disable it for react
     'import/prefer-default-export': "off",
+
+    // new react approaches doesn't require bind functions
+    "react/jsx-no-bind": "off"
   },
   globals: {},
   settings: {
