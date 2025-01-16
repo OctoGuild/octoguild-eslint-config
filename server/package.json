@@ -15,5 +15,6 @@
     "eslint-plugin-chai-friendly": "^1.0.1",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-mocha": "^10.5.0"
-  }
+  },
+  "gitHead": "75a3d0c34620739b53b5411d4f5f7d91ff1b6aa8"
 }

@@ -13,5 +13,6 @@
     "@octoguild/eslint-config-react-core": "^1.0.1",
     "eslint-plugin-detox": "^1.0.0",
     "eslint-plugin-react-native": "^5.0.0"
-  }
+  },
+  "gitHead": "75a3d0c34620739b53b5411d4f5f7d91ff1b6aa8"
 }
