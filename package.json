@@ -14,7 +14,7 @@
   "scripts": {
     "version:note": "Never user version script. it conflicts with lerna",
     "version:lerna": "lerna version",
-    "publish": "lerna publish from-package",
+    "lerna:publish": "lerna publish from-package",
     "ncu": "ncu --deep -u"
   },
   "keywords": [
