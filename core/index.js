@@ -3,6 +3,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: [
     'airbnb-base',
+    "plugin:eslint-comments/recommended",
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -85,6 +86,10 @@ module.exports = {
         message: "Don't declare non-const enums",
       },
     ],
+
+    "jsx-a11y/no-autofocus": [2, {
+      "ignoreNonDOM": true
+    }],
 
     // useless eslint rules
     'no-plusplus': 'off',
