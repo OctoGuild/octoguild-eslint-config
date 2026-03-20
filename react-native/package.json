@@ -28,5 +28,5 @@
   "engines": {
     "node": "^18.18.0 || ^20.9.0 || >=21"
   },
-  "gitHead": "75a3d0c34620739b53b5411d4f5f7d91ff1b6aa8"
+  "gitHead": "556d21cd9d7629684aa3a39781bd0efa7ef1527b"
 }
