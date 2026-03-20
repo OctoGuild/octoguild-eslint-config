@@ -2,7 +2,13 @@
   "name": "@octoguild/eslint-config-react",
   "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./pragma-auto": "./pragma-auto.js",
+    "./pragma-manual": "./pragma-manual.js"
+  },
   "scripts": {},
   "publishConfig": {
     "access": "public"
@@ -11,7 +17,16 @@
   "license": "MIT",
   "dependencies": {
     "@emotion/eslint-plugin": "^11.12.0",
-    "@octoguild/eslint-config-react-core": "^1.1.0"
+    "@octoguild/eslint-config-react-core": "^1.1.0",
+    "globals": "^16.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.x",
+    "typescript": "*"
+  },
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21"
   },
   "gitHead": "75a3d0c34620739b53b5411d4f5f7d91ff1b6aa8"
 }
