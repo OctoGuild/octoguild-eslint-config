@@ -29,6 +29,6 @@
     "node": ">= 18"
   },
   "dependencies": {
-    "lerna": "^8.2.3"
+    "lerna": "^9.0.7"
   }
 }
