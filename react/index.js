@@ -1,4 +1,4 @@
-import emotion from '@emotion/eslint-plugin'
+import * as emotionPlugin from '@emotion/eslint-plugin';
 import reactCore from '@octoguild/eslint-config-react-core'
 import globals from 'globals'
 
@@ -9,7 +9,7 @@ export default [
   { rules: pragmaAutoRules },
   {
     plugins: {
-      '@emotion': emotion,
+      '@emotion': emotionPlugin,
     },
     languageOptions: {
       globals: globals.jest,
