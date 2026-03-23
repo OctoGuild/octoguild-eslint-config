@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-react",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "type": "module",
   "main": "./index.js",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "@emotion/eslint-plugin": "^11.12.0",
-    "@octoguild/eslint-config-react-core": "^2.0.1",
+    "@octoguild/eslint-config-react-core": "^2.0.2",
     "globals": "^16.0.0"
   },
   "peerDependencies": {
@@ -28,5 +28,5 @@
   "engines": {
     "node": "^18.18.0 || ^20.9.0 || >=21"
   },
-  "gitHead": "556d21cd9d7629684aa3a39781bd0efa7ef1527b"
+  "gitHead": "2278520c86eed1c95fa5d44df2b94f3f9c66635f"
 }

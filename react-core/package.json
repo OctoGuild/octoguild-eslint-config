@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-react-core",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "type": "module",
   "main": "./index.js",
@@ -16,7 +16,7 @@
   "dependencies": {
     "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^9.39.1",
-    "@octoguild/eslint-config-core": "^2.0.1",
+    "@octoguild/eslint-config-core": "^2.0.2",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -33,5 +33,5 @@
   "engines": {
     "node": "^18.18.0 || ^20.9.0 || >=21"
   },
-  "gitHead": "556d21cd9d7629684aa3a39781bd0efa7ef1527b"
+  "gitHead": "2278520c86eed1c95fa5d44df2b94f3f9c66635f"
 }
