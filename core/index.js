@@ -1,14 +1,10 @@
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
-
+import { fixupConfigRules } from '@eslint/compat'
 import eslint from '@eslint/js'
-import { FlatCompat } from '@eslint/eslintrc'
-import airbnbBase from 'eslint-config-airbnb-base'
-import importPlugin from 'eslint-plugin-import'
-import eslintCommentsPlugin from 'eslint-plugin-eslint-comments'
 import stylisticPlugin from '@stylistic/eslint-plugin'
+import eslintCommentsPluginImport from 'eslint-plugin-eslint-comments'
+import importPlugin from 'eslint-plugin-import'
+import sonarjs from 'eslint-plugin-sonarjs'
 import typescriptEslint from 'typescript-eslint'
-
 import rules from './src/rules.js'
 
 /** Flat config presets may be one object or an array; spread needs an iterable. */
@@ -19,40 +15,34 @@ function asConfigArray(config) {
 
 const tsEslint = typescriptEslint.default ?? typescriptEslint
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const eslintCommentsRecommended = eslintCommentsPluginImport.configs.recommended.default
+  ?? eslintCommentsPluginImport.configs.recommended
 
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: eslint.configs.recommended,
-  allConfig: eslint.configs.all,
-})
-
-const airbnbLegacy = airbnbBase.default ?? airbnbBase
-const eslintCommentsRecommended =
-  eslintCommentsPlugin.configs.recommended.default ?? eslintCommentsPlugin.configs.recommended
-
-const tail = {
-  languageOptions: {
-    parser: tsEslint.parser,
-    parserOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
-    },
+export default fixupConfigRules([
+  eslint.configs.recommended,
+  {
+    plugins: { 'eslint-comments': eslintCommentsPluginImport },
+    rules: eslintCommentsRecommended.rules,
   },
-  plugins: {
-    '@typescript-eslint': tsEslint.plugin,
-    import: importPlugin,
-    'eslint-comments': eslintCommentsPlugin,
-    '@stylistic': stylisticPlugin,
-  },
-  rules,
-}
-
-export default [
-  ...compat.config(airbnbLegacy),
-  ...compat.config(eslintCommentsRecommended),
   ...asConfigArray(tsEslint.configs.eslintRecommended),
   ...asConfigArray(tsEslint.configs.recommended),
   ...asConfigArray(tsEslint.configs.recommendedTypeChecked),
-  tail,
-]
+  sonarjs.configs.recommended,
+  {
+    languageOptions: {
+      parser: tsEslint.parser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        project: './tsconfig.json',
+        tsconfigRootDir: process.cwd(),
+      },
+    },
+    plugins: {
+      '@typescript-eslint': tsEslint.plugin,
+      import: importPlugin,
+      '@stylistic': stylisticPlugin,
+    },
+    rules,
+  },
+])

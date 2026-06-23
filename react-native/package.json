@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-react-native",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "",
   "type": "module",
   "main": "./index.js",
@@ -14,19 +14,20 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@eslint/compat": "^2.1.0",
     "@eslint/eslintrc": "^3.3.5",
-    "@eslint/js": "^9.39.1",
-    "@octoguild/eslint-config-react-core": "^2.0.2",
+    "@eslint/js": "^10.0.1",
+    "@octoguild/eslint-config-react-core": "^3.0.0",
     "eslint-plugin-detox": "^1.0.0",
     "eslint-plugin-react-native": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "prettier": "^3.x",
     "typescript": "*"
   },
   "engines": {
-    "node": "^18.18.0 || ^20.9.0 || >=21"
+    "node": ">=20.19.0"
   },
   "gitHead": "f2a225420025e39b3ab33710332c804c70dbc39c"
 }

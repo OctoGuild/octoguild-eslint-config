@@ -75,6 +75,10 @@ const rules = {
   'import/prefer-default-export': 'off',
 
   'react/jsx-no-bind': 'off',
+
+  'jsx-a11y/no-autofocus': ['error', {
+    ignoreNonDOM: true,
+  }],
 }
 
 export default rules

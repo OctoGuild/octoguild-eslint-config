@@ -78,10 +78,6 @@ export default {
     },
   ],
 
-  'jsx-a11y/no-autofocus': [2, {
-    ignoreNonDOM: true,
-  }],
-
   // useless eslint rules
   'no-plusplus': 'off',
   'no-await-in-loop': 'off',

@@ -23,12 +23,15 @@
   "author": "zvsx001@gmail.com",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "^9.39.4"
+    "eslint": "^10.0.0"
   },
   "engines": {
-    "node": ">= 18"
+    "node": ">= 20.19.0"
   },
   "dependencies": {
     "lerna": "^9.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^10.5.0"
   }
 }

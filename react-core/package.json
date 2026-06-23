@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-react-core",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "",
   "type": "module",
   "main": "./index.js",
@@ -14,24 +14,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@eslint/eslintrc": "^3.3.5",
-    "@eslint/js": "^9.39.1",
-    "@octoguild/eslint-config-core": "^2.0.2",
-    "eslint-config-airbnb": "^19.0.4",
+    "@eslint/compat": "^2.1.0",
+    "@octoguild/eslint-config-core": "^3.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-prettier": "^5.5.6",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "globals": "^16.0.0"
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.7.0"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "prettier": "^3.x",
     "typescript": "*"
   },
   "engines": {
-    "node": "^18.18.0 || ^20.9.0 || >=21"
+    "node": ">=20.19.0"
   },
   "gitHead": "f2a225420025e39b3ab33710332c804c70dbc39c"
 }

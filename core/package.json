@@ -1,6 +1,6 @@
 {
   "name": "@octoguild/eslint-config-core",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "",
   "type": "module",
   "main": "./index.js",
@@ -14,20 +14,20 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@eslint/eslintrc": "^3.3.5",
-    "@eslint/js": "^9.39.1",
-    "@stylistic/eslint-plugin": "^5.0.0",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "@eslint/compat": "^2.1.0",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.32.0",
-    "typescript-eslint": "^8.43.0"
+    "eslint-plugin-sonarjs": "^4.1.0",
+    "typescript-eslint": "^8.62.0"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "typescript": "*"
   },
   "engines": {
-    "node": "^18.18.0 || ^20.9.0 || >=21"
+    "node": ">=20.19.0"
   },
   "gitHead": "f2a225420025e39b3ab33710332c804c70dbc39c"
 }
